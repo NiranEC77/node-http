@@ -1,0 +1,6 @@
+---
+applications:
+  - name: todo-ui
+    memory: 256M
+    routes: 
+    - route: node.apps.vtas.lab.local
