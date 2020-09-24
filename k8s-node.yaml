@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: node
-        image: harbor.tanzuworld.com/openso/node
+        image: harbor.tanzu-demo.com/app-images/node-http
         ports:
         - containerPort: 8080
