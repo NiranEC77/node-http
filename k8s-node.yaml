@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: harbor.tanzu-demo.com/app-images/node-http
+        image: harbor.tanzu-demo.com/app-images/node-http:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
