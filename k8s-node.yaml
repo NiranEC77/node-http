@@ -32,3 +32,5 @@ spec:
         image: harbor.tanzu-demo.com/app-images/node-http
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred
